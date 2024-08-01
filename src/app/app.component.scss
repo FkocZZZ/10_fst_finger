@@ -1,0 +1,31 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+button{
+    background-color: lightblue;  
+    margin: 5px;
+}
+button:hover{
+    color:red;
+}
+.key{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#typing{
+    border-radius:5px;
+}
+.correct{
+    border:solid 2px green;
+    box-shadow: inset 2px 1px 7px -1px yellowgreen ;
+}
+.incorrect{
+    border: solid 3px red;
+    box-shadow: inset 2px 1px 7px -1px red ;
+}
